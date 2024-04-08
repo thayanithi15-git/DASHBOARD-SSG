@@ -1,0 +1,1133 @@
+* {
+    font-size: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(172, 169, 169);
+  }
+  
+  body {
+    border: 10px;
+  }
+  
+  .left {
+    background-color: rgb(172, 169, 169);
+    padding: 10px;
+    max-width: 150px;
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(88, 88, 89);
+  }
+  
+  .dash i {
+    margin-right: 5px;
+    font-size: 20px;
+    color: rgb(202, 24, 104);
+    cursor: pointer;
+  }
+  
+  .dash {
+    color: rgb(10, 10, 10);
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+  }
+  
+  .home i {
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .home {
+    margin-top: 60px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .home:hover {
+    color: rgb(235, 13, 87);
+  }
+  
+  .dashboard i {
+    margin-right: 30px;
+    margin-right: 5px;
+    font-size: 10px;
+    cursor: pointer;
+  }
+  
+  .dashboard {
+    margin-top: 10px;
+    font-size: 10px;
+    cursor: pointer;
+  }
+  
+  .dashboard:hover {
+    color: rgb(235, 13, 87);
+  }
+  
+  .shop i {
+    width: 130px;
+    font-size: 10px;
+    display: flex;
+    cursor: pointer;
+  }
+  
+  .shop {
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 10px;
+    cursor: pointer;
+    vertical-align: middle;
+  }
+  
+  .shop:hover,
+  .shop select:hover {
+    color: rgb(235, 13, 87);
+  }
+  
+  .com i {
+    margin-right: 5px;
+    font-size: 10px;
+    cursor: pointer;
+  }
+  
+  .com {
+    margin-top: 10px;
+    font-size: 10px;
+    cursor: pointer;
+  }
+  
+  .com:hover {
+    color: rgb(235, 13, 87);
+  }
+  
+  .order i {
+    margin-right: 5px;
+    font-size: 10px;
+    cursor: pointer;
+  }
+  
+  .order {
+    margin-top: 10px;
+    font-size: 10px;
+    cursor: pointer;
+  }
+  
+  .order:hover {
+    color: rgb(235, 13, 87);
+  }
+  
+  select {
+    background-color: rgb(172, 169, 169);
+    border: none;
+    width: 150px;
+    cursor: pointer;
+  }
+  
+  select option:hover {
+    color: rgb(235, 13, 87);
+  }
+  
+  .assets i {
+    margin-right: 5px;
+    font-size: 10px;
+    cursor: pointer;
+  }
+  
+  .assets {
+    margin-top: 10px;
+    font-size: 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
+  }
+  
+  .assets:hover,.notice:hover,.help:hover {
+    color: rgb(235, 13, 87);
+    cursor: pointer;
+  }
+  
+  .app i {
+    margin-top: 5px;
+    margin-right: 5px;
+    font-size: 10px;
+    cursor: pointer;
+  }
+  
+  .app {
+    display: flex;
+    width: 130px;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 10px;
+    cursor: pointer;
+  }
+  
+  .app:hover,
+  .app select:hover {
+    color: rgb(235, 13, 87);
+  }
+  
+  .setup i {
+    margin-right: 6px;
+    font-size: 10px;
+    cursor: pointer;
+  }
+  
+  .setup {
+    margin-top: 20px;
+    font-size: 10px;
+    cursor: pointer;
+  }
+  
+  .setup:hover {
+    color: rgb(235, 13, 87);
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .right {
+    margin-top: -730px;
+    max-height: 2000px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .aoki {
+    width: 100px;
+    font-size: 14px;
+    margin-left: 50px;
+    margin-top: 35px;
+  }
+  
+  .basic {
+    border-color: rgb(235, 13, 87);
+    color: rgb(235, 13, 87);
+    margin-left: 10px;
+    margin-top: 35px;
+  }
+  
+  .notice {
+    margin-left: 550px;
+    margin-top: 45px;
+    font-size: 13px;
+  }
+  
+  .help {
+    margin-left: 50px;
+    margin-top: 45px;
+    font-size: 13px;
+  }
+  
+  .user {
+    width: 10px;
+    margin-right: 1px;
+    margin-top: 33px;
+    margin-left: 50px;
+  }
+  
+  .opt {
+    width: 10px;
+    margin-right: 1px;
+    margin-top: 33px;
+    margin-left: 10px;
+  }
+
+  .top {
+    margin-top: 150px;
+    margin-left: 20px;
+    width: 100px;
+    font-size: 14px;
+    margin-top: 250px;
+    background-color: aliceblue;
+    padding-left: 190px;
+    padding-right: 700px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .well {
+    width: 300px;
+    font-size: 20px;
+    color: rgb(235, 13, 87);
+    background-color: aliceblue;
+    margin-left: -150px;
+  }
+  
+  .comp {
+    width: 200px;
+    background-color: aliceblue;
+    margin-left: -150px;
+  }
+  .top{
+    margin-left: -980px;
+  }
+  
+  .first {
+    background: linear-gradient(130deg, rgb(206, 77, 133), rgb(202, 139, 168));
+    margin-left: 170px;
+    margin-top: -65px;
+    margin-bottom: -30px;
+    padding-right: 200px;
+    padding-bottom: 25px;
+    padding-top: 40px;
+    padding-left: -10px;
+    border-radius: 8px;
+    width: 1px;
+    height: 15px;
+  }
+  
+  .cert {
+    font-size: 10px;
+    margin-left: 10px;
+    width: 150px;
+    background: none;
+    margin-top: -20px;
+    margin-bottom: 5px;
+  }
+  
+  .go {
+    width: 40px;
+    
+    margin-left: 30px;
+    margin-right: -30px;
+    border: none;
+    color: rgb(230, 27, 27);
+    background: whitesmoke;
+    margin-top: 0px;
+  }
+  .upl {
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-bottom: 7px;
+    width: 150px;
+    font-size: 9px;
+    background: none;
+  }
+  
+  
+  .second {
+    background: linear-gradient(130deg, rgb(75, 60, 238), rgb(104, 149, 195));
+    margin-left: 380px;
+    margin-top: -79px;
+    margin-bottom: 0px;
+    padding-right: 200px;
+    padding-bottom: 15px;
+    padding-top: 50px;
+    padding-left: -10px;
+    border-radius: 8px;
+  }
+  
+  .pro {
+    font-size: 10px;
+    margin-left: 10px;
+    width: 150px;
+    background: none;
+    margin-top: -30px;
+    display: flex;
+    margin-bottom: 5px;
+  }
+  
+  .goo {
+    width: 40px;
+    
+    margin-left: 30px;
+    margin-right: -30px;
+    border: none;
+    background-color: azure;
+    color: rgb(230, 27, 27);
+    margin-top: 0px;
+  }
+  .fill {
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-bottom: 7px;
+    width: 150px;
+    font-size: 9px;
+    background: none;
+  }
+  
+  .third {
+    background: linear-gradient(130deg, rgb(165, 35, 229), rgb(184, 87, 176));
+    margin-left: 590px;
+    margin-top: -80px;
+    margin-bottom: 7px;
+    padding-right: 200px;
+    padding-bottom: 15px;
+    padding-top: 50px;
+    padding-left: -10px;
+    border-radius: 8px;
+    width: 5px;
+  }
+  .sale {
+    margin-left: 20px;
+    width: 150px;
+    background: none;
+    margin-top: -30px;
+    display: flex;
+  }
+  
+  .gooo {
+    width: 20px;
+    
+    margin-left: -30px;
+    border: none;
+    background-color: azure;
+    color: rgb(230, 27, 27);
+    margin-top: 0px;
+  }
+  .cho {
+    margin-top: 15px;
+    margin-left: 30px;
+    width: 150px;
+    font-size: 9px;
+    background: none;
+    margin-bottom: 5px;
+  }
+
+  .bottom {
+    margin-top: -220px;
+    margin-bottom: -1150px;
+    padding-top: 80px;
+    margin-left: -50%;
+    background-color: aliceblue;
+    padding-left: 20px;
+    padding-right: 670px;
+    border-radius: 15px;
+    width: 300px;
+    max-height: 1400px;
+    height: 450px; /* increased height */
+  }
+
+  .today{
+    background-color: aliceblue;
+    margin-top: -70px;
+  }
+  .to{
+    padding-left: 7%;
+    background-color: aliceblue;
+  }
+
+  .data{
+    color: red;
+    margin-top: 1.5%;
+    margin-left: 900px;
+    margin-top: -25px;
+  }
+  .table{
+    width: 300px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: -20px;
+  }
+
+  .t1{
+    padding-left: 1%;
+    width: 280px;
+    background-color: rgb(255, 174, 208);
+    border-radius: 10px;
+    height: 100px;
+  }
+ 
+  .do1{
+    background-color: rgb(255, 174, 208);
+    }
+
+.num{
+    width: 190px;
+    line-height: 0.01;
+    background-color: rgb(255, 174, 208);
+  }
+.num1{
+    background-color: rgb(255, 174, 208);
+}
+
+  .sym{
+    background-color: rgb(255, 174, 208);
+    color: red;
+    width: 50px;
+    height: 30px; 
+    text-align: center;
+    margin-top: -10%;
+    border-radius: 55px;
+    margin-left: 70%;
+    font-size: 20px;
+  }
+
+  .to1{
+    margin-left: 5%;
+    line-height: 0.01;
+    background-color: rgb(255, 174, 208);
+  }
+
+  .yes1{
+    margin-top: 5%;
+    background-color: rgb(255, 174, 208);
+  }
+
+  .first1 {
+    background-color: rgb(201, 143, 187);
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: -30px;
+    padding-right: 200px;
+    padding-bottom: 25px;
+    padding-top: 40px;
+    padding-left: -10px;
+    border-radius: 8px;
+    width: 1px;
+    height: 15px;
+    cursor: pointer;
+  }
+  
+  .payam {
+    font-size: 10px;
+    margin-left: 10px;
+    width: 90px;
+    background: none;
+    margin-top: -30px;
+    margin-bottom: 5px;
+  }
+  .sym1 i{
+    font-size: 30px;
+    background: none;
+  }
+  .sym1 {
+    margin-left: 150px;
+    margin-right: -30px;
+    border: none;
+    color: rgb(230, 27, 27);
+    background: linear-gradient(130deg, rgb(206, 77, 133), rgb(202, 139, 168));
+    margin-top: -10px;
+    
+  }
+
+  .num1{
+    margin-top: -25px;
+    margin-left: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+  }
+
+  .upl1 {
+    margin-top: -10px;
+    margin-left: 30px;
+    margin-bottom: 7px;
+    width: 150px;
+    font-size: 9px;
+    background:none;
+  }
+
+  .first2 {
+    background-color: rgb(142, 171, 214);
+    margin-left: 275px;
+    margin-top: -80px;
+    margin-bottom: -30px;
+    padding-right: 200px;
+    padding-bottom: 25px;
+    padding-top: 40px;
+    padding-left: -10px;
+    border-radius: 8px;
+    width: 1px;
+    height: 15px;
+    cursor: pointer;
+  }
+  .sym2 i{
+    font-size: 30px;
+    background: none;
+  }
+  .sym2 {
+    margin-left: 150px;
+    margin-right: -30px;
+    border: none;
+    color: rgb(13, 9, 244);
+    background-color: aqua;
+    margin-top: -10px;
+    
+  }
+
+  .first3 {
+    background-color: rgb(181, 156, 204);
+    margin-left: 500px;
+    margin-top: -80px;
+    margin-bottom: -30px;
+    padding-right: 200px;
+    padding-bottom: 25px;
+    padding-top: 40px;
+    padding-left: -10px;
+    border-radius: 8px;
+    width: 1px;
+    height: 15px;
+    cursor: pointer;
+  }
+  .sym3 i{
+    font-size: 30px;
+    background: none;
+  }
+  .sym3 {
+    margin-left: 150px;
+    margin-right: -30px;
+    border: none;
+    color: rgb(133, 3, 145);
+    background: linear-gradient(130deg, rgb(206, 77, 133), rgb(202, 139, 168));
+    margin-top: -10px;
+    
+  }
+
+  .first4 {
+    background-color: rgb(180, 225, 180);
+    margin-left: 730px;
+    margin-top: -80px;
+    margin-bottom: -30px;
+    padding-right: 200px;
+    padding-bottom: 25px;
+    padding-top: 40px;
+    padding-left: -10px;
+    border-radius: 8px;
+    width: 1px;
+    height: 15px;
+    cursor: pointer;
+  }
+
+  .sym4 i{
+    font-size: 30px;
+    background: none;
+  }
+  .sym4 {
+    margin-left: 150px;
+    margin-right: -30px;
+    border: none;
+    color: rgb(5, 153, 25);
+    background: linear-gradient(130deg, rgb(206, 77, 133), rgb(202, 139, 168));
+    margin-top: -10px;
+    
+  }
+
+  .sec1 {
+    background-color:rgb(182, 181, 181);
+    margin-left: 50px;
+    margin-top: 60px;
+    margin-bottom: -30px;
+    padding-right: 200px;
+    padding-bottom: 25px;
+    padding-top: 40px;
+    padding-left: -10px;
+    border-radius: 8px;
+    width: 1px;
+    height: 15px;
+    cursor: pointer;
+  }
+  
+  .payam1 {
+    font-size: 10px;
+    margin-left: 10px;
+    width: 150px;
+    background: none;
+    margin-top: -30px;
+    margin-bottom: 5px;
+  }
+  .sym11 i{
+    font-size: 30px;
+    background: none;
+  }
+  .sym11 {
+    margin-left: 150px;
+    margin-right: -30px;
+    border: none;
+    color: rgb(230, 27, 27);
+    background: linear-gradient(130deg, rgb(206, 77, 133), rgb(202, 139, 168));
+    margin-top: -10px;
+    
+  }
+
+  .num2{
+    margin-top: 5px;
+    margin-left: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+  }
+
+  .upl2 {
+    margin-top: -10px;
+    margin-left: 30px;
+    margin-bottom: 7px;
+    width: 150px;
+    font-size: 9px;
+    background:none;
+  }
+
+  .sec2 {
+    background-color:rgb(182, 181, 181);
+    margin-left: 275px;
+    margin-top: -80px;
+    margin-bottom: -30px;
+    padding-right: 200px;
+    padding-bottom: 25px;
+    padding-top: 40px;
+    padding-left: -10px;
+    border-radius: 8px;
+    width: 1px;
+    height: 15px;
+    cursor: pointer;
+  }
+  .sym21 i{
+    font-size: 30px;
+    background: none;
+  }
+  .sym21 {
+    margin-left: 150px;
+    margin-right: -30px;
+    border: none;
+    color: rgb(13, 9, 244);
+    background-color: aqua;
+    margin-top: -10px;
+    
+  }
+
+  .sec3 {
+    background-color:rgb(182, 181, 181);
+    margin-left: 500px;
+    margin-top: -80px;
+    margin-bottom: -30px;
+    padding-right: 200px;
+    padding-bottom: 25px;
+    padding-top: 40px;
+    padding-left: -10px;
+    border-radius: 8px;
+    width: 1px;
+    height: 15px;
+    cursor: pointer;
+  }
+  .sym31 i{
+    font-size: 30px;
+    background: none;
+  }
+  .sym31 {
+    margin-left: 150px;
+    margin-right: -30px;
+    border: none;
+    color: rgb(133, 3, 145);
+    background: linear-gradient(130deg, rgb(206, 77, 133), rgb(202, 139, 168));
+    margin-top: -10px;
+    
+  }
+
+  .sec4 {
+    background-color:rgb(182, 181, 181);
+    margin-left: 730px;
+    margin-top: -80px;
+    margin-bottom: -30px;
+    padding-right: 200px;
+    padding-bottom: 25px;
+    padding-top: 40px;
+    padding-left: -10px;
+    border-radius: 8px;
+    width: 1px;
+    height: 15px;
+    cursor: pointer;
+  }
+
+  .sym41 i{
+    font-size: 30px;
+    background: none;
+  }
+  .sym41 {
+    margin-left: 150px;
+    margin-right: -30px;
+    border: none;
+    color: rgb(5, 153, 25);
+    background: linear-gradient(130deg, rgb(206, 77, 133), rgb(202, 139, 168));
+    margin-top: -10px;
+    
+  }
+
+  .tod{
+    background-color: aliceblue;
+    margin-top: 60px;
+  }
+
+  .first11 {
+    background-color: aliceblue;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: -30px;
+    padding-right: 200px;
+    padding-bottom: 25px;
+    padding-top: 40px;
+    padding-left: -10px;
+    border-radius: 8px;
+    width: 1px;
+    height: 15px;
+    border: 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: grey;
+    cursor: pointer;
+  }
+  
+  .payam11 {
+    font-size: 10px;
+    margin-left: 80px;
+    width: 120px;
+    background: none;
+    margin-top: -20px;
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+  .sym11 i{
+    font-size: 30px;
+    background: rgb(173, 171, 171);
+    border-radius: 8px;
+    border-width: 2000px;
+    border-color:  rgb(173, 171, 171);
+    margin-left: -4px;
+  }
+  .sym11 {
+    color: rgb(243, 64, 64);
+    width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  background: rgb(173, 171, 171);
+  border-radius: 15px;
+  border: 8px solid rgb(173, 171, 171);
+  margin-top: -19px;
+  }
+
+  .num11{
+    margin-top: -25px;
+    margin-left: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+  }
+
+  .upl11 {
+    margin-top: -20px;
+    margin-left: 85px;
+    margin-bottom: 7px;
+    width: 150px;
+    font-size: 10px;
+    background:none;
+  }
+
+  .first21 {
+    background-color: aliceblue;
+    margin-left: 275px;
+    margin-top: -85px;
+    margin-bottom: -30px;
+    padding-right: 200px;
+    padding-bottom: 25px;
+    padding-top: 40px;
+    padding-left: -10px;
+    border-radius: 8px;
+    width: 1px;
+    height: 15px;
+    border: 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: grey;
+    cursor: pointer;
+  }
+  .sym221 i{
+    font-size: 30px;
+    background: rgb(173, 171, 171);
+    border-radius: 8px;
+    border-width: 2000px;
+    border-color:  rgb(173, 171, 171);
+  }
+  .sym221 {
+    color: rgb(6, 140, 47);
+    width: 30px;
+  height: 30px;
+  margin-left: 17px;
+  background: rgb(173, 171, 171);
+  border-radius: 15px;
+  border: 8px solid rgb(173, 171, 171);
+  margin-top: -19px;
+    
+  }
+
+  .first31 {
+    background-color: aliceblue;
+    margin-left: 500px;
+    margin-top: -85px;
+    margin-bottom: -30px;
+    padding-right: 200px;
+    padding-bottom: 25px;
+    padding-top: 40px;
+    padding-left: -10px;
+    border-radius: 8px;
+    width: 1px;
+    height: 15px;
+    border: 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: grey;
+    cursor: pointer;
+  }
+  .sym31 i{
+    font-size: 30px;
+    background: rgb(173, 171, 171);
+    border-radius: 8px;
+    border-width: 2000px;
+    border-color:  rgb(173, 171, 171);
+    margin-left: -4px;
+  }
+  .sym31 {
+    color: rgb(88, 59, 234);
+    width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  background: rgb(173, 171, 171);
+  border-radius: 15px;
+  border: 8px solid rgb(173, 171, 171);
+  margin-top: -19px;
+    
+  }
+
+  .first41 {
+    background-color: aliceblue;
+    margin-left: 730px;
+    margin-top: -85px;
+    margin-bottom: -30px;
+    padding-right: 200px;
+    padding-bottom: 25px;
+    padding-top: 40px;
+    padding-left: -10px;
+    border-radius: 8px;
+    width: 1px;
+    height: 15px;
+    border: 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: grey;
+    cursor: pointer;
+  }
+
+  .upl111{
+    margin-top: -20px;
+    margin-left: 65px;
+    margin-bottom: 7px;
+    width: 150px;
+    font-size: 10px;
+    background:none;
+  }
+
+  .sym41 i{
+    font-size: 30px;
+    background: rgb(173, 171, 171);
+    border-radius: 8px;
+    border-width: 2000px;
+    border-color:  rgb(173, 171, 171);
+    margin-left: -2px;
+  }
+  .sym41 {
+    color: rgb(241, 83, 21);
+    width: 30px;
+  height: 30px;
+  margin-left: 17px;
+  background: rgb(173, 171, 171);
+  border-radius: 15px;
+  border: 8px solid rgb(173, 171, 171);
+  margin-top: -19px;
+    
+  }
+
+  .sec11 {
+    background-color:aliceblue;
+    margin-left: 50px;
+    margin-top: 60px;
+    margin-bottom: -30px;
+    padding-right: 200px;
+    padding-bottom: 25px;
+    padding-top: 40px;
+    padding-left: -10px;
+    border-radius: 8px;
+    width: 1px;
+    height: 15px;
+    border: 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: grey;
+    cursor: pointer;
+  }
+  
+  .payam22 {
+    font-size: 10px;
+    margin-left: 80px;
+    width: 120px;
+    background: none;
+    margin-top: -20px;
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+  .sym21 i{
+    font-size: 30px;
+    background: rgb(173, 171, 171);
+    border-radius: 8px;
+    border-width: 2000px;
+    border-color:  rgb(173, 171, 171);
+    margin-left: -2px;
+  }
+  .sym21 {
+    color: rgb(76, 21, 241);
+    width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  background: rgb(173, 171, 171);
+  border-radius: 15px;
+  border: 8px solid rgb(173, 171, 171);
+  margin-top: -19px;
+    
+  }
+
+  .num22{
+    margin-top: 5px;
+    margin-left: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+  }
+
+  .upl22 {
+    margin-top: -20px;
+    margin-left: 85px;
+    margin-bottom: 7px;
+    width: 150px;
+    font-size: 10px;
+    background:none;
+  }
+
+  .sec21 {
+    background-color:aliceblue;
+    margin-left: 275px;
+    margin-top: -85px;
+    margin-bottom: -30px;
+    padding-right: 200px;
+    padding-bottom: 25px;
+    padding-top: 40px;
+    padding-left: -10px;
+    border-radius: 8px;
+    width: 1px;
+    height: 15px;
+    border: 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: grey;
+    cursor: pointer;
+  }
+  .sym22 i{
+    font-size: 30px;
+    background: rgb(173, 171, 171);
+    border-radius: 8px;
+    border-width: 2000px;
+    border-color:  rgb(173, 171, 171);
+    margin-left: -2px;
+  }
+  .sym22 {
+    color: rgb(241, 83, 21);
+    width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  background: rgb(173, 171, 171);
+  border-radius: 15px;
+  border: 8px solid rgb(173, 171, 171);
+  margin-top: -19px;
+    
+  }
+
+  .sec31 {
+    background-color:aliceblue;
+    margin-left: 500px;
+    margin-top: -85px;
+    margin-bottom: -30px;
+    padding-right: 200px;
+    padding-bottom: 25px;
+    padding-top: 40px;
+    padding-left: -10px;
+    border-radius: 8px;
+    width: 1px;
+    height: 15px;
+    border: 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: grey;
+    cursor: pointer;
+  }
+  .sym23 i{
+    font-size: 30px;
+    background: rgb(173, 171, 171);
+    border-radius: 8px;
+    border-width: 2000px;
+    border-color:  rgb(173, 171, 171);
+    margin-left: 2px;
+  }
+  .sym23 {
+    color: rgb(241, 21, 25);
+    width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  background: rgb(173, 171, 171);
+  border-radius: 15px;
+  border: 8px solid rgb(173, 171, 171);
+  margin-top: -19px;
+  }
+
+  .sec41 {
+    background-color:aliceblue;
+    margin-left: 730px;
+    margin-top: -85px;
+    margin-bottom: -30px;
+    padding-right: 200px;
+    padding-bottom: 25px;
+    padding-top: 40px;
+    padding-left: -10px;
+    border-radius: 8px;
+    width: 1px;
+    height: 15px;
+    border: 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: grey;
+    cursor: pointer;
+  }
+
+  .sym24 i{
+    font-size: 30px;
+    background: rgb(173, 171, 171);
+    border-radius: 8px;
+    border-width: 2000px;
+    border-color:  rgb(173, 171, 171);
+  }
+
+  .sym24:acti{
+    font-size: 40px;
+  }
+  .sym24 {
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  background: rgb(173, 171, 171);
+  border-radius: 15px;
+  border: 8px solid rgb(173, 171, 171);
+  margin-top: -19px;
+  color: rgb(15, 141, 15);
+  }
+
+  .basic:hover,.first1:hover,.first2:hover,.first3:hover,.first4:hover,.sec1:hover,.sec2:hover,.sec3:hover,.sec4:hover,.first11:hover,.first21:hover,.first31:hover,.first41:hover,.sec11:hover,.sec21:hover,.sec31:hover,.sec41:hover,.sec41:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+
+  .go:hover,.goo:hover,.gooo:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+
+  .data:hover {
+    color: rgb(13, 12, 13);
+    cursor: pointer;
+  }
